@@ -150,7 +150,6 @@ def crawling(i):
 
 if __name__ == '__main__':
     med_data_list = manager.list()
-    start_time = time.time()
     pool = Pool(processes=10)
     pool.map(crawling, range(0, 44470, 1))
     pool.close()
