@@ -1,5 +1,4 @@
 # library import
-import time
 import pymongo
 import requests
 import re
@@ -159,7 +158,6 @@ if __name__ == '__main__':
     print('----------------------------------------\n')
     print('                                        \n')
     print('All data search end and Make a database!\n')
-    print('total time : ', time.time() - start_time)
     print('error product code list : ', error_index)
     print('                                        \n')
     print('----------------------------------------\n')
