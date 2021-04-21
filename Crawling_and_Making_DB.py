@@ -21,7 +21,7 @@ index = lists
 
 
 # connect Mongodb
-conn = pymongo.MongoClient('mongodb://13.124.201.28', username='root', password='mp123', authMechanism='SCRAM-SHA-1')
+conn = pymongo.MongoClient('mongodb://13.124.201.28', username='root', password='####', authMechanism='SCRAM-SHA-1') # block the password
 medipush = conn.medipush
 medicine = medipush.medicine
 
